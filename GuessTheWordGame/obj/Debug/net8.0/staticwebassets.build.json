@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "0YBmx7EZWaLE2JBkXC23L+7J35HA6ty5cVIV21jv3Y0=",
+  "Source": "GuessTheWordGame",
+  "BasePath": "_content/GuessTheWordGame",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "GuessTheWordGame\\wwwroot",
+      "Source": "GuessTheWordGame",
+      "ContentRoot": "C:\\Users\\hp\\OneDrive\\Рабочий стол\\web\\GuessTheWordGame\\wwwroot\\",
+      "BasePath": "_content/GuessTheWordGame",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\hp\\OneDrive\\Рабочий стол\\web\\GuessTheWordGame\\wwwroot\\index.html",
+      "SourceId": "GuessTheWordGame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\OneDrive\\Рабочий стол\\web\\GuessTheWordGame\\wwwroot\\",
+      "BasePath": "_content/GuessTheWordGame",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\OneDrive\\Рабочий стол\\web\\GuessTheWordGame\\wwwroot\\script.js",
+      "SourceId": "GuessTheWordGame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\OneDrive\\Рабочий стол\\web\\GuessTheWordGame\\wwwroot\\",
+      "BasePath": "_content/GuessTheWordGame",
+      "RelativePath": "script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\OneDrive\\Рабочий стол\\web\\GuessTheWordGame\\wwwroot\\style.css",
+      "SourceId": "GuessTheWordGame",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\OneDrive\\Рабочий стол\\web\\GuessTheWordGame\\wwwroot\\",
+      "BasePath": "_content/GuessTheWordGame",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
+}

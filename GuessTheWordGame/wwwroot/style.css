@@ -1,0 +1,164 @@
+/* Основной стиль страницы */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Контейнер */
+.container {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Заголовок */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Поле ввода */
+input {
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* Кнопка */
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #3e8e41;
+    transform: scale(0.95);
+}
+
+/* Результат */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Сообщение успеха */
+#result.success {
+    color: #4CAF50;
+}
+
+/* Сообщение ошибки */
+#result.error {
+    color: #ff4d4d;
+}
+
+/* Анимация конфетти */
+@keyframes fall {
+    0% {
+        transform: translateY(-100px) rotate(0deg);
+    }
+    100% {
+        transform: translateY(100vh) rotate(360deg);
+    }
+}
+
+/* ----- Медиа-запросы для адаптивности ----- */
+
+/* Для мобильных устройств (ширина экрана до 480px) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    input {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    #result {
+        font-size: 16px;
+    }
+}
+
+/* Для планшетов (ширина экрана от 481px до 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .container {
+        max-width: 350px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    input, button {
+        font-size: 15px;
+    }
+
+    button {
+        padding: 12px 18px;
+    }
+}
+
+/* Для больших экранов (ширина экрана более 1200px) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 500px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    input {
+        font-size: 18px;
+        padding: 14px;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 14px 22px;
+    }
+
+    #result {
+        font-size: 20px;
+    }
+}
